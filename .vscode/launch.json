@@ -8,14 +8,14 @@
             "name": "(gdb) 起動",
             "type": "cppdbg",
             "request": "launch",
-            "program": "${workspaceFolder}/build/csv_to_dgz.exe", // <- test.exe
+            "program": "${workspaceFolder}/build/csv_to_dgz.exe",
             "args": ["test.csv","test.dgz"],
             "stopAtEntry": false,
             "cwd": "${workspaceFolder}/build",
             "environment": [],
-            "externalConsole": false, // <- true
+            "externalConsole": false,
             "MIMode": "gdb",
-            "miDebuggerPath": "gdb.exe", // <- フルパス
+            "miDebuggerPath": "gdb.exe",
             "setupCommands": [
                 {
                     "description": "gdb の再フォーマットを有効にする",
